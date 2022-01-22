@@ -48,6 +48,24 @@ body{
     margin-right: 101px;
     padding: 10px 40px;
 }
+/* mobile menu  */
+.mobilemenu{
+    color: white;
+    display: none;
+}
+.mobilemenu ul{
+    list-style: none;
+}
+.mobilemenu ul li{
+    border: 1px solid gray;
+    border-radius: 5px;
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    padding: 5px ;
+  margin-top: 4px;
+}
+
 .blogArti{
   
 font-style: normal;
@@ -77,105 +95,7 @@ padding-bottom: 56px;
     margin-right: 10px;
     display: none;
 }
-@media only screen and (max-width: 950px) {
-   .navkeys{
-       display: none;
-   }
-   .contact{
-       display: none;
-   }
-   .naveleft{
-    padding-left: 49px; 
-   }
-   .blogArti{
-    font-weight: 800;
-    font-size: 56px;
-    line-height: 64px;
-    text-align: center;
-    letter-spacing: -1px;
-    
-   
-   }
-   .articalecontent{
-       width: 75%;
-   }
-   .menubar{
-       display: block;
-   }
-/* responsive section */
 
-.sectionOne{
-    padding-top: 50px;
-   
-  
-    margin: auto;
-    justify-content: center;
-    padding-bottom: 10px;
-    flex-wrap: wrap;
-}
-.leftSection {
-    padding: 30px;
-    width: 90vw;
-
-
-}
-.leftSection img{
-    
-    width: 90vw;
-
-
-}
-.secondDiv{
-    
-    width: 90vw;
-
-}
-.secondDiv img{
-   width: 90vw;
-
-}
-.dahs{
-    display: none;
-}
-/* button responsive */
-.newslest{
-display: grid;
-grid-template-columns: repeat(1fr);
-}
-.newslest{
-    display: flex;
-    flex-direction: column;
-}
-.email{
-    width: 90%;
-   
-    margin-bottom: 10px;
-}
-.subscrib{
-    width: 90%;
-  
-    margin-bottom: 10px;  
-}
-/* third section responsive  */
-.thirdSection{
-    display: flex;
-  flex-direction:column-reverse;
-
-  
-    
-}
-.thirdimage img{
-   padding: 20px;
-   width: 70vw;
-   
-}
-.thirdtext h1{
-   
-    font-size: 15px;
-}
-
-
-  }
   /* section 1 */
   .sectionOne{
       padding-top: 50px;
@@ -321,7 +241,113 @@ grid-template-columns: repeat(1fr);
     margin: 0px 40px;
 }
 
+/* responsive area  */
+@media only screen and (max-width: 950px) {
+    .navkeys{
+        display: none;
+    }
+    #time{
+        display: none;
+    }
+    .contact{
+        display: none;
+    }
+    .naveleft{
+     padding-left: 49px; 
+    }
+    .blogArti{
+     font-weight: 800;
+     font-size: 56px;
+     line-height: 64px;
+     text-align: center;
+     letter-spacing: -1px;
+     
+    
+    }
+    .articalecontent{
+        width: 75%;
+    }
+    .menubar{
+        display: block;
+    }
+ /* responsive section */
+ 
+ .sectionOne{
+     padding-top: 50px;
+    
+   
+     margin: auto;
+     justify-content: center;
+     padding-bottom: 10px;
+     flex-wrap: wrap;
+ }
+ .leftSection {
+     padding: 30px;
+     width: 90vw;
+ 
+ 
+ }
+ .leftSection img{
+     
+     width: 90vw;
+ 
+ 
+ }
+ .secondDiv{
+     
+     width: 90vw;
+ 
+ }
+ .secondDiv img{
+    width: 90vw;
+ 
+ }
+ .dahs{
+     display: none;
+ }
+ /* button responsive */
+ .newslest{
+ display: grid;
+ grid-template-columns: repeat(1fr);
+ }
+ .newslest{
+     display: flex;
+     flex-direction: column;
+ }
+ .email{
+     width: 90%;
+    
+     margin-bottom: 10px;
+ }
+ .subscrib{
+     width: 90%;
+   
+     margin-bottom: 10px;  
+ }
+ /* third section responsive  */
+ .thirdSection{
+     display: flex;
+   flex-direction:column-reverse;
+ 
+   
+     
+ }
+ .thirdimage img{
+    padding: 20px;
+    width: 70vw;
+    
+ }
+ .thirdtext h1{
+    
+     font-size: 15px;
+ }
+ 
+ 
+   }
+
+
 @media only screen and (max-width: 600px) {
+  
     /* footer section  */
     .fortSection{
         width: 90%;
@@ -333,6 +359,9 @@ grid-template-columns: repeat(1fr);
      text-align: center;
     
        
+    }
+    #time{
+        display: none;
     }
     .service{
         padding: 0px 40px;
